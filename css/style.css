@@ -1,0 +1,177 @@
+.primary-color{
+  color: #efefef;
+}
+
+.secondary-color{
+  color: #69a6ecd2;
+}
+
+
+
+.bg-primary-color{
+  background-color: #efefefd0;
+}
+
+body{
+  position: relative;
+  background-image: url("../img/33.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/*navbar*/
+
+.navbar-brand{
+  display: flex;
+}
+
+#navbar-items .navbar-nav{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#navbar-items .nav-item{
+  margin: 0 1em;
+}
+
+.navbar-brand span{
+  font-size: 1em;
+  margin-left: 0.5em;
+  color: #69a6ecd2;
+}
+
+.navbar-brand img{
+  width: 40%;
+}
+
+#navbar a{
+  color: #868686;
+}
+
+#navbar a:hover{
+  color: #69a6ecd2;
+}
+
+
+/*zonas*/
+.zonas{
+  padding: 12em 2em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.zonas .title{
+  letter-spacing: 0.5em;
+}
+
+.zonas img{
+  display: flex;
+  width: 100%;
+  border-radius: 15px;
+  border: 3px solid white;
+  margin-top: 10px;
+}
+
+#necton .title, #plancton .title{
+  color: #575757;
+  text-shadow: rgba(199, 198, 198, 0.836) 2px 3px;
+  padding-bottom: 0.8em;
+}
+
+#bentos p{
+  color: #ffffff
+}
+
+#bentos .title{
+  text-shadow: rgba(253, 253, 253, 0.308) 2px 3px;
+  padding-bottom: 0.8em;
+  color: #ffffff
+}
+
+#home .title{
+  text-shadow: #69a6ec5e 2px 3px;
+  padding-bottom: 0.8em;
+}
+
+/*footer*/
+#footer{
+  display: flex;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  align-items: center;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.footer-brand img{
+  width: 24%;
+}
+
+.footer-brand p{
+  font-size: 12px;
+}
+
+footer .footer-dev{
+  color: #868686;
+  font-size: 10px;
+}
+
+
+@media(min-width: 768px){
+
+  /*navbar*/
+  .navbar-brand span{
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    color: #69a6ecd2;
+  }
+
+  .navbar-brand img{
+    width: 25%;
+  }
+
+  /*home*/
+  #home{
+    margin-top: 6em;
+  }
+
+  /*zonas*/
+  .zonas{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #bentos{
+    color: white;
+  }
+
+  /*footer*/
+  #footer{
+    display: flex;
+    text-align: center;
+    padding-top: 1.2em;
+    padding-bottom: 0.5em;
+    align-items: center;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+  }
+
+  .footer-brand img{
+    width: 15%;
+  }
+
+  .footer-brand p{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .footer-dev{
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+  }
+}
