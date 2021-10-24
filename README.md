@@ -2,6 +2,7 @@
 
 Um site sobre a estratificação do oceano (plancton, nécton e bentos) de forma simples e didática. 
 
+https://laarissagoncalves.github.io/oceanife/
 
 Utilizando Bootstrap 5, CSS3 e HTML5.
 Modo "mobile first".
